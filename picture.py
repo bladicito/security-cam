@@ -5,7 +5,7 @@ from time import sleep
 
 import uuid
 
-unique_filename = str(uuid.uuid4())+'.jpg'
+
 
 SENSOR_PIN = 14
 
@@ -13,6 +13,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(SENSOR_PIN, GPIO.IN)
 
 def mein_callback(channel):
+    unique_filename = str(uuid.uuid4())+'.jpg'
     print('There was a movement! now? make a picture, save it on the internet')
 
     camera = PiCamera()
