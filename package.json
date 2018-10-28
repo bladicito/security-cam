@@ -1,0 +1,19 @@
+{
+  "name": "security-cam",
+  "version": "1.0.0",
+  "description": "pir sensor plus pi cam  to save pictures ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bladicito/security-cam.git"
+  },
+  "author": "Bladimir Ardiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bladicito/security-cam/issues"
+  },
+  "homepage": "https://github.com/bladicito/security-cam#readme"
+}
